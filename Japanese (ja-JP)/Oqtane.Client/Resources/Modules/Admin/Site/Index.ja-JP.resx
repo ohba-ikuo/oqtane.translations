@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Text" xml:space="preserve">
+    <value>名前: </value>
+  </data>
+  <data name="Container.Select" xml:space="preserve">
+    <value>コンテナを選択</value>
+  </data>
+  <data name="Error.Theme.LoadPane" xml:space="preserve">
+    <value>テーマペインレイアウトの読み込みエラー</value>
+  </data>
+  <data name="DefaultContainer.Text" xml:space="preserve">
+    <value>デフォルトコンテナ: </value>
+  </data>
+  <data name="DefaultAdminContainer" xml:space="preserve">
+    <value>デフォルト管理コンテナ</value>
+  </data>
+  <data name="Smtp.Required.EnableNotificationJob" xml:space="preserve">
+    <value>** SMTPでは、スケジュールされたジョブで通知ジョブを有効にする必要があることに注意してください</value>
+  </data>
+  <data name="Smtp.TestConfig" xml:space="preserve">
+    <value>SMTP構成のテスト</value>
+  </data>
+  <data name="Success.Settings.SaveSite" xml:space="preserve">
+    <value>サイト設定が保存されました。</value>
+  </data>
+  <data name="Message.Aliases.Taken" xml:space="preserve">
+    <value>デフォルトのエイリアスが指定されていないか、別のサイトで既に使用されているエイリアスが指定されました</value>
+  </data>
+  <data name="Message.Required.SiteName" xml:space="preserve">
+    <value>サイト名、エイリアス、およびデフォルトのテーマ/コンテナを提供する必要があります</value>
+  </data>
+  <data name="Error.SaveSite" xml:space="preserve">
+    <value>サイト保存エラー</value>
+  </data>
+  <data name="Info.Smtp.SaveSettings" xml:space="preserve">
+    <value>SMTP設定が保存され、ユーザアカウントに関連付けられたメールアドレスにメッセージが送信されました。配信されるまで数分お待ちください。電子メールを受信しない場合は、ログの詳細について、スケジュールされたジョブの通知ジョブを確認してください。</value>
+  </data>
+  <data name="Error.Smtp.TestConfig" xml:space="preserve">
+    <value>SMTP構成テストエラー</value>
+  </data>
+  <data name="Message.Required.Smtp" xml:space="preserve">
+    <value>SMTPホスト、ポート、および送信者を指定する必要があります</value>
+  </data>
+  <data name="Name.HelpText" xml:space="preserve">
+    <value>サイト名を入力してください</value>
+  </data>
+  <data name="Tenant.HelpText" xml:space="preserve">
+    <value>サイトで使用されるデータベースの名前。これは物理データベース名ではなく、フレームワーク内でデータベースを識別するために使用されるテナント名であることに注意してください。</value>
+  </data>
+  <data name="Aliases.HelpText" xml:space="preserve">
+    <value>サイトの URL。これには、ドメイン名 (例：domain.com)、サブドメイン (例：sub.domain.com)、または仮想フォルダ (例：domain.com/folder) を含めることができます。</value>
+  </data>
+  <data name="IsDeleted.HelpText" xml:space="preserve">
+    <value>このサイトを削除可能とするか?</value>
+  </data>
+  <data name="Logo.HelpText" xml:space="preserve">
+    <value>サイトのロゴをアップロードする</value>
+  </data>
+  <data name="FavoriteIcon.HelpText" xml:space="preserve">
+    <value>ファビコンを指定します。画像の形式は、サイズが 16x16、32x32、48x48、または 64x64 ピクセル、色深度が 8 ビット、24 ビット、または 32 ビットである必要があります。画像の形式は ICO、PNG、または GIF である必要があります。</value>
+  </data>
+  <data name="DefaultTheme.HelpText" xml:space="preserve">
+    <value>サイトのデフォルトテーマを選択します</value>
+  </data>
+  <data name="DefaultContainer.HelpText" xml:space="preserve">
+    <value>サイトのデフォルトコンテナを選択します</value>
+  </data>
+  <data name="DefaultAdminContainer.HelpText" xml:space="preserve">
+    <value>サイトのデフォルト管理コンテナを選択します</value>
+  </data>
+  <data name="Host.HelpText" xml:space="preserve">
+    <value>SMTPサーバのホスト名を入力します</value>
+  </data>
+  <data name="Port.HelpText" xml:space="preserve">
+    <value>SMTPサーバのポート番号を入力します。ホスト名を指定する場合、このフィールドは必須であることに注意してください。</value>
+  </data>
+  <data name="UseSsl.HelpText" xml:space="preserve">
+    <value>SMTPサーバにSSLが必要かどうかを指定します</value>
+  </data>
+  <data name="SmtpUsername.HelpText" xml:space="preserve">
+    <value>SMTPアカウントのユーザ名を入力します</value>
+  </data>
+  <data name="SmtpPassword.HelpText" xml:space="preserve">
+    <value>SMTPアカウントのパスワードを入力します</value>
+  </data>
+  <data name="SmtpSender.HelpText" xml:space="preserve">
+    <value>メールの送信元メールアドレスを入力します。このメールアドレスはSMTPサーバで承認される必要がある場合があることに注意してください。</value>
+  </data>
+  <data name="EnablePWA.HelpText" xml:space="preserve">
+    <value>このサイトをプログレッシブWebアプリケーション（PWA）として利用できるようにするかどうかを選択します</value>
+  </data>
+  <data name="PwaApplicationIcon.HelpText" xml:space="preserve">
+    <value>PWAのアプリケーションアイコンを含めます。寸法が192X192ピクセルのPNGである必要があります。</value>
+  </data>
+  <data name="PwaSplashIcon.HelpText" xml:space="preserve">
+    <value>PWAのスプラッシュアイコンを含めます。寸法が512X512ピクセルのPNGである必要があります。</value>
+  </data>
+  <data name="Tenant.Text" xml:space="preserve">
+    <value>データベース: </value>
+  </data>
+  <data name="Aliases.Text" xml:space="preserve">
+    <value>Urls:</value>
+  </data>
+  <data name="IsDeleted.Text" xml:space="preserve">
+    <value>削除可能:</value>
+  </data>
+  <data name="Logo.Text" xml:space="preserve">
+    <value>ロゴ: </value>
+  </data>
+  <data name="FavoriteIcon.Text" xml:space="preserve">
+    <value>ファビコン: </value>
+  </data>
+  <data name="DefaultTheme.Text" xml:space="preserve">
+    <value>デフォルトテーマ: </value>
+  </data>
+  <data name="DefaultAdminContainer.Text" xml:space="preserve">
+    <value>デフォルト管理コンテナ: </value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>ホスト: </value>
+  </data>
+  <data name="Port.Text" xml:space="preserve">
+    <value>ポート: </value>
+  </data>
+  <data name="UseSsl.Text" xml:space="preserve">
+    <value>SSL 有効化: </value>
+  </data>
+  <data name="SmtpUsername.Text" xml:space="preserve">
+    <value>ユーザ名: </value>
+  </data>
+  <data name="SmtpPassword.Text" xml:space="preserve">
+    <value>パスワード: </value>
+  </data>
+  <data name="SmtpSender.Text" xml:space="preserve">
+    <value>Email センダー: </value>
+  </data>
+  <data name="EnablePWA.Text" xml:space="preserve">
+    <value>有効:</value>
+  </data>
+  <data name="PwaApplicationIcon.Text" xml:space="preserve">
+    <value>App アイコン: </value>
+  </data>
+  <data name="PwaSplashIcon.Text" xml:space="preserve">
+    <value>スプラッシュアイコン: </value>
+  </data>
+  <data name="Confirm.DeleteSite" xml:space="preserve">
+    <value>このサイトを削除してもよろしいですか?</value>
+  </data>
+  <data name="Error.DeleteSite" xml:space="preserve">
+    <value>サイト削除中にエラーが発生しました</value>
+  </data>
+  <data name="Message.FailAuth.DeleteSite" xml:space="preserve">
+    <value>あなたはサイトを削除する権限がありません</value>
+  </data>
+  <data name="Theme.Select" xml:space="preserve">
+    <value>テーマを選択</value>
+  </data>
+  <data name="Hosting.Heading" xml:space="preserve">
+    <value>ホスティングモデル</value>
+  </data>
+  <data name="Prerender.HelpText" xml:space="preserve">
+    <value>サイトを事前レンダリングするかどうかを指定します（検索クローラーなどの場合）。</value>
+  </data>
+  <data name="Prerender.Text" xml:space="preserve">
+    <value>事前レンダリング: </value>
+  </data>
+  <data name="Rendermode.HelpText" xml:space="preserve">
+    <value>サイトのデフォルトレンダリングモード</value>
+  </data>
+  <data name="Rendermode.Text" xml:space="preserve">
+    <value>レンダーモード: </value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>ブラウズ</value>
+  </data>
+  <data name="TenantInformation.Heading" xml:space="preserve">
+    <value>データベース</value>
+  </data>
+  <data name="PWASettings.Heading" xml:space="preserve">
+    <value>PWA設定</value>
+  </data>
+  <data name="SMTPSettings.Heading" xml:space="preserve">
+    <value>SMTP設定</value>
+  </data>
+  <data name="ConnectionString.Text" xml:space="preserve">
+    <value>接続文字列:</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>種類:</value>
+  </data>
+  <data name="ConnectionString.HelpText" xml:space="preserve">
+    <value>データベース接続に使用される appsettings.json 内の接続文字列名</value>
+  </data>
+  <data name="Database.HelpText" xml:space="preserve">
+    <value>テナントのデータベース</value>
+  </data>
+  <data name="DeleteSite.Header" xml:space="preserve">
+    <value>サイトの削除</value>
+  </data>
+  <data name="DeleteSite.Text" xml:space="preserve">
+    <value>サイトを削除</value>
+  </data>
+  <data name="DefaultAlias.HelpText" xml:space="preserve">
+    <value>サイトのデフォルトのエイリアス。デフォルト以外のエイリアスのリクエストは、デフォルトのエイリアスにリダイレクトされます。</value>
+  </data>
+  <data name="DefaultAlias.Text" xml:space="preserve">
+    <value>デフォルトエイリアス: </value>
+  </data>
+  <data name="Aliases.Heading" xml:space="preserve">
+    <value>エイリアス</value>
+  </data>
+  <data name="AliasName" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="AliasDefault" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="Confirm.Alias.Delete" xml:space="preserve">
+    <value>{0}を削除してもよろしいですか?</value>
+  </data>
+  <data name="HomePage.HelpText" xml:space="preserve">
+    <value>サイトのホーム ページを選択します (パスが '/' のページがない場合に使用します)。</value>
+  </data>
+  <data name="HomePage.Text" xml:space="preserve">
+    <value>ホームページ:</value>
+  </data>
+  <data name="SmtpRelay.HelpText" xml:space="preserve">
+    <value>送信メールをルーティングするように SMTP リレー サービスを適切に構成している場合にのみ、このオプションを指定してください。このオプションは、上記で指定した電子メール送信者からではなく、ユーザの電子メールから通知を送信します。</value>
+  </data>
+  <data name="SmtpRelay.Text" xml:space="preserve">
+    <value>リレーの設定:</value>
+  </data>
+  <data name="SiteMap.HelpText" xml:space="preserve">
+    <value>インデックス作成のために検索エンジンに送信できる、このサイトのサイト マップ URL</value>
+  </data>
+  <data name="SiteMap.Text" xml:space="preserve">
+    <value>サイトマップ：</value>
+  </data>
+  <data name="Appearance.Heading" xml:space="preserve">
+    <value>外観</value>
+  </data>
+  <data name="HeadContent.HelpText" xml:space="preserve">
+    <value>必要に応じて、ページヘッダに含めるコンテンツ (メタ、リンク、スクリプトタグなど) を入力します。</value>
+  </data>
+  <data name="HeadContent.Text" xml:space="preserve">
+    <value>先頭のコンテンツ:</value>
+  </data>
+  <data name="BodyContent.HelpText" xml:space="preserve">
+    <value>必要に応じて、ページ本文に含めるコンテンツ (スクリプトタグなど) を入力します。</value>
+  </data>
+  <data name="BodyContent.Text" xml:space="preserve">
+    <value>本文の内容:</value>
+  </data>
+  <data name="PageContent.Heading" xml:space="preserve">
+    <value>ページコンテンツ</value>
+  </data>
+  <data name="SMTPEnabled.HelpText" xml:space="preserve">
+    <value>このサイトで SMTP を有効にするかどうかを指定します</value>
+  </data>
+  <data name="SMTPEnabled.Text" xml:space="preserve">
+    <value>有効:</value>
+  </data>
+  <data name="Version.HelpText" xml:space="preserve">
+    <value>サイトのバージョン (サイト コンテンツの移行用)</value>
+  </data>
+  <data name="Version.Text" xml:space="preserve">
+    <value>バージョン:</value>
+  </data>
+  <data name="DeleteAlias.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="DeleteAlias.Header" xml:space="preserve">
+    <value>エイリアスの削除</value>
+  </data>
+  <data name="SiteGuid.HelpText" xml:space="preserve">
+    <value>サイトの一意の識別子</value>
+  </data>
+  <data name="SiteGuid.Text" xml:space="preserve">
+    <value>ID:</value>
+  </data>
+  <data name="Retention.HelpText" xml:space="preserve">
+    <value>通知を保持する日数</value>
+  </data>
+  <data name="Retention.Text" xml:space="preserve">
+    <value>保存期間 (日数):</value>
+  </data>
+  <data name="HybridEnabled.HelpText" xml:space="preserve">
+    <value>サイトを外部の .NET MAUI ハイブリッド アプリケーションと統合できるかどうかを指定します</value>
+  </data>
+  <data name="HybridEnabled.Text" xml:space="preserve">
+    <value>ハイブリッド対応:</value>
+  </data>
+  <data name="Runtime.HelpText" xml:space="preserve">
+    <value>インタラクティブを必要とする UI コンポーネントのレンダリング モード</value>
+  </data>
+  <data name="Runtime.Text" xml:space="preserve">
+    <value>インタラクティブ:</value>
+  </data>
+  <data name="TextEditor.HelpText" xml:space="preserve">
+    <value>サイトのテキスト エディタを選択します</value>
+  </data>
+  <data name="TextEditor.Text" xml:space="preserve">
+    <value>テキストエディタ:</value>
+  </data>
+  <data name="Functionality" xml:space="preserve">
+    <value>機能</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="CookieConsent.HelpText" xml:space="preserve">
+    <value>このサイトで Cookie の同意が有効になっているかどうかを指定します。このオプションは、Cookie の同意をサポートするテーマと組み合わせて使用する必要があることに注意してください。</value>
+  </data>
+  <data name="CookieConsent.Text" xml:space="preserve">
+    <value>クッキーの同意:</value>
+  </data>
+  <data name="OptIn" xml:space="preserve">
+    <value>オプトイン（GDPR）</value>
+  </data>
+  <data name="OptOut" xml:space="preserve">
+    <value>オプトアウト（CCPA）</value>
+  </data>
+  <data name="Theme.Heading" xml:space="preserve">
+    <value>テーマ</value>
+  </data>
+  <data name="SiteMap.EvictCache" xml:space="preserve">
+    <value>キャッシュクリア</value>
+  </data>
+  <data name="Success.SiteMap.CacheEvicted" xml:space="preserve">
+    <value>サイトマップのキャッシュがクリアされました</value>
+  </data>
+  <!-- Japanese -->
+  <data name="Hybrid.Text" xml:space="preserve">
+    <value>ハイブリッド:</value>
+  </data>
+  <data name="Hybrid.HelpText" xml:space="preserve">
+    <value>サイトを外部の .NET MAUI ハイブリッド アプリケーションと統合できるかどうかを指定します</value>
+  </data>
+  <data name="Functionality.Heading" xml:space="preserve">
+    <value>機能</value>
+  </data>
+  <!-- Japanese End -->
+</root>

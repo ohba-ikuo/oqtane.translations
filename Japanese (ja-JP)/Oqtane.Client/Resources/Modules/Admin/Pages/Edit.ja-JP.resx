@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Text" xml:space="preserve">
+    <value>名前: </value>
+  </data>
+  <data name="Parent.Text" xml:space="preserve">
+    <value>親ページ: </value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>タイトル: </value>
+  </data>
+  <data name="Settings.Heading" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SiteRoot" xml:space="preserve">
+    <value>サイトルート</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>後</value>
+  </data>
+  <data name="Page.Select" xml:space="preserve">
+    <value>ページを選択</value>
+  </data>
+  <data name="Container.Select" xml:space="preserve">
+    <value>コンテナを選択</value>
+  </data>
+  <data name="Error.ChildPage.Load" xml:space="preserve">
+    <value>親の子ページの読み込み中にエラーが発生しました</value>
+  </data>
+  <data name="Error.Pane.Load" xml:space="preserve">
+    <value>テーマのペインレイアウトの読み込みエラー</value>
+  </data>
+  <data name="Mesage.Page.PathExists" xml:space="preserve">
+    <value>選択した親ページには、パス{0}のページが既に存在します。ページパスは、選択した親に対して一意である必要があります。</value>
+  </data>
+  <data name="Message.Required.PageInfo" xml:space="preserve">
+    <value>ページ名、テーマ、およびコンテナを提供する必要があります</value>
+  </data>
+  <data name="Error.Page.Save" xml:space="preserve">
+    <value>ページの保存エラー</value>
+  </data>
+  <data name="Name.HelpText" xml:space="preserve">
+    <value>ページ名を入力してください。</value>
+  </data>
+  <data name="Parent.HelpText" xml:space="preserve">
+    <value>サイト階層でページの親を選択します</value>
+  </data>
+  <data name="Navigation.HelpText" xml:space="preserve">
+    <value>ページをサイトナビゲーションの一部にするか非表示にするかを選択します</value>
+  </data>
+  <data name="UrlPath.HelpText" xml:space="preserve">
+    <value>必要に応じて、このページのURLパスを入力します（例：home） URLパスを指定しない場合は、ページ名が使用されます。</value>
+  </data>
+  <data name="Redirect.HelpText" xml:space="preserve">
+    <value>オプションで、ユーザがこのページに移動したときにこのページがリダイレクトするURLを入力します</value>
+  </data>
+  <data name="Title.HelpText" xml:space="preserve">
+    <value>オプションで、ページタイトルを入力します。ページタイトルを指定しない場合は、ページ名が使用されます。</value>
+  </data>
+  <data name="Theme.HelpText" xml:space="preserve">
+    <value>このページのテーマを選択してください</value>
+  </data>
+  <data name="DefaultContainer.HelpText" xml:space="preserve">
+    <value>ページのデフォルトコンテナを選択します</value>
+  </data>
+  <data name="Icon.HelpText" xml:space="preserve">
+    <value>オプションで、サイトナビゲーションに表示されるこのページのアイコンクラス名を指定します</value>
+  </data>
+  <data name="Personalizable.HelpText" xml:space="preserve">
+    <value>ユーザがこのページを独自のコンテンツでパーソナライズできるようにするかどうかを選択します</value>
+  </data>
+  <data name="Navigation.Text" xml:space="preserve">
+    <value>ナビゲーション可能:</value>
+  </data>
+  <data name="UrlPath.Text" xml:space="preserve">
+    <value>Url パス: </value>
+  </data>
+  <data name="Redirect.Text" xml:space="preserve">
+    <value>リダイレクト: </value>
+  </data>
+  <data name="Theme.Text" xml:space="preserve">
+    <value>テーマ: </value>
+  </data>
+  <data name="DefaultContainer.Text" xml:space="preserve">
+    <value>デフォルトコンテナ: </value>
+  </data>
+  <data name="Icon.Text" xml:space="preserve">
+    <value>アイコン: </value>
+  </data>
+  <data name="Personalizable.Text" xml:space="preserve">
+    <value>パーソナライズ可能: </value>
+  </data>
+  <data name="Appearance.Heading" xml:space="preserve">
+    <value>外観</value>
+  </data>
+  <data name="ThisLocation.Keep" xml:space="preserve">
+    <value>現在のロケーションを維持する</value>
+  </data>
+  <data name="ToBeginning" xml:space="preserve">
+    <value>はじめに</value>
+  </data>
+  <data name="ToEnd" xml:space="preserve">
+    <value>終わりに</value>
+  </data>
+  <data name="Error.Page.Load" xml:space="preserve">
+    <value>ページ読み込みエラー</value>
+  </data>
+  <data name="Move.HelpText" xml:space="preserve">
+    <value>他のページとの関係でページを移動する場所を選択します</value>
+  </data>
+  <data name="Move.Text" xml:space="preserve">
+    <value>移動: </value>
+  </data>
+  <data name="ModuleDefinition" xml:space="preserve">
+    <value>モジュール</value>
+  </data>
+  <data name="ModuleTitle" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="PageModules.Heading" xml:space="preserve">
+    <value>モジュール</value>
+  </data>
+  <data name="ModuleSettings.Text" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="DeleteModule.Header" xml:space="preserve">
+    <value>モジュール削除</value>
+  </data>
+  <data name="DeleteModule.Message" xml:space="preserve">
+    <value>このモジュールを削除してもよろしいですか?</value>
+  </data>
+  <data name="DeleteModule.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Permissions.Heading" xml:space="preserve">
+    <value>パーミッション</value>
+  </data>
+  <data name="ThemeSettings.Heading" xml:space="preserve">
+    <value>テーマ設定</value>
+  </data>
+  <data name="Clickable.HelpText" xml:space="preserve">
+    <value>サイトナビゲーションのリンクを有効にするか無効にするかを選択します</value>
+  </data>
+  <data name="Clickable.Text" xml:space="preserve">
+    <value>クリック可能:</value>
+  </data>
+  <data name="HeadContent.HelpText" xml:space="preserve">
+    <value>必要に応じて、ページヘッダに含めるコンテンツを入力します。(例. メタ,リンク,またはスクリプトタグ)</value>
+  </data>
+  <data name="HeadContent.Text" xml:space="preserve">
+    <value>ヘッダコンテンツ:</value>
+  </data>
+  <data name="Message.Page.Reserved" xml:space="preserve">
+    <value>ページ名{0}は予約されています。ページに別の名前を入力してください。</value>
+  </data>
+  <data name="BodyContent.HelpText" xml:space="preserve">
+    <value>必要に応じて、ページ本文に含めるコンテンツ (スクリプトタグなど) を入力します。</value>
+  </data>
+  <data name="BodyContent.Text" xml:space="preserve">
+    <value>本文の内容:</value>
+  </data>
+  <data name="PageContent.Heading" xml:space="preserve">
+    <value>ページコンテンツ</value>
+  </data>
+  <data name="ThemeChanged.Message" xml:space="preserve">
+    <value>デフォルトのサイトテーマを無関係なページテーマで上書きすると、サイトの互換性の問題が発生する可能性があることに注意してください</value>
+  </data>
+  <data name="EffectiveDate.HelpText" xml:space="preserve">
+    <value>このページが有効になる日</value>
+  </data>
+  <data name="EffectiveDate.Text" xml:space="preserve">
+    <value>発行日: </value>
+  </data>
+  <data name="ExpiryDate.HelpText" xml:space="preserve">
+    <value>このページが失効する日</value>
+  </data>
+  <data name="ExpiryDate.Text" xml:space="preserve">
+    <value>失効日: </value>
+  </data>
+  <data name="PersonalizedUrlPath.Text" xml:space="preserve">
+    <value>Url パス:</value>
+  </data>
+  <data name="PersonalizedUrlPath.HelpText" xml:space="preserve">
+    <value>あなたのパーソナライズされたページのURLパスを入力してください。スペースや句読点はダッシュ(-)に置き換えられることに注意してください。</value>
+  </data>
+</root>
