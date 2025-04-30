@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Confirm.User.Delete" xml:space="preserve">
+    <value>{0}を削除してもよろしいですか?</value>
+  </data>
+  <data name="AddUser.Text" xml:space="preserve">
+    <value>ユーザ追加</value>
+  </data>
+  <data name="DeleteUser.Header" xml:space="preserve">
+    <value>ユーザ削除</value>
+  </data>
+  <data name="AllowRegistration.HelpText" xml:space="preserve">
+    <value>匿名の訪問者がサイトのアカウントに登録できるようにしますか</value>
+  </data>
+  <data name="AllowRegistration.Text" xml:space="preserve">
+    <value>登録の許可:</value>
+  </data>
+  <data name="Error.SaveSiteSettings" xml:space="preserve">
+    <value>設定の保存エラー</value>
+  </data>
+  <data name="Settings.Heading" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Success.SaveSiteSettings" xml:space="preserve">
+    <value>設定が正常に保存されました</value>
+  </data>
+  <data name="Users.Heading" xml:space="preserve">
+    <value>ユーザ</value>
+  </data>
+  <data name="DeleteUser.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="EditUser.Text" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Roles.Text" xml:space="preserve">
+    <value>ロール</value>
+  </data>
+  <data name="LockoutDuration.HelpText" xml:space="preserve">
+    <value>ユーザーがロックアウトされる時間（分）</value>
+  </data>
+  <data name="LockoutDuration.Text" xml:space="preserve">
+    <value>ロックアウト時間:</value>
+  </data>
+  <data name="MaximumFailures.HelpText" xml:space="preserve">
+    <value>ユーザがロックアウトされるまでのサインインの最大試行回数</value>
+  </data>
+  <data name="MaximumFailures.Text" xml:space="preserve">
+    <value>最大失敗回数:</value>
+  </data>
+  <data name="RequireDigit.HelpText" xml:space="preserve">
+    <value>パスワードに数字を含める必要があるかどうかを示します</value>
+  </data>
+  <data name="RequireDigit.Text" xml:space="preserve">
+    <value>数字が必要:</value>
+  </data>
+  <data name="RequiredLength.HelpText" xml:space="preserve">
+    <value>パスワードの最小の長さ</value>
+  </data>
+  <data name="RequiredLength.Text" xml:space="preserve">
+    <value>最小数:</value>
+  </data>
+  <data name="RequireLower.HelpText" xml:space="preserve">
+    <value>パスワードに小文字を含める必要があるかどうかを示します</value>
+  </data>
+  <data name="RequireLower.Text" xml:space="preserve">
+    <value>小文字が必要:</value>
+  </data>
+  <data name="RequirePunctuation.HelpText" xml:space="preserve">
+    <value>パスワードに英数字以外の文字（句読点など）を含める必要があるかどうかを示します</value>
+  </data>
+  <data name="RequirePunctuation.Text" xml:space="preserve">
+    <value>句読点が必要:</value>
+  </data>
+  <data name="RequireUpper.HelpText" xml:space="preserve">
+    <value>パスワードに大文字を含める必要があるかどうかを示します</value>
+  </data>
+  <data name="RequireUpper.Text" xml:space="preserve">
+    <value>大文字が必要:</value>
+  </data>
+  <data name="Success.UpdateConfig.Restart" xml:space="preserve">
+    <value>構成が更新されました。これらの変更を有効にするには、[アプリケーションの再起動]を選択してください。</value>
+  </data>
+  <data name="UniqueCharacters.HelpText" xml:space="preserve">
+    <value>パスワードに含める必要のある一意の文字の最小数</value>
+  </data>
+  <data name="UniqueCharacters.Text" xml:space="preserve">
+    <value>ユニーク文字数:</value>
+  </data>
+  <data name="AllowSiteLogin.HelpText" xml:space="preserve">
+    <value>このサイトでローカルに管理されているユーザ名とパスワードを使用してユーザがサインインできるようにしますか?このオプションを無効にする必要があるのは、外部ログインプロバイダを既に正常に構成している場合のみです。無効にしないと、サイトから自分自身をロックアウトする可能性があります。</value>
+  </data>
+  <data name="AllowSiteLogin.Text" xml:space="preserve">
+    <value>ログイン許可:</value>
+  </data>
+  <data name="Authority.HelpText" xml:space="preserve">
+    <value>OpenID Connectプロバイダに関連付けられたAuthority UrlまたはIssuer Url</value>
+  </data>
+  <data name="Authority.Text" xml:space="preserve">
+    <value>権限:</value>
+  </data>
+  <data name="AuthorizationUrl.HelpText" xml:space="preserve">
+    <value>認証コードを取得するためのエンドポイント</value>
+  </data>
+  <data name="AuthorizationUrl.Text" xml:space="preserve">
+    <value>認可URL</value>
+  </data>
+  <data name="ClientID.HelpText" xml:space="preserve">
+    <value>プロバイダからのクライアントID</value>
+  </data>
+  <data name="ClientID.Text" xml:space="preserve">
+    <value>クライアントID:</value>
+  </data>
+  <data name="ClientSecret.HelpText" xml:space="preserve">
+    <value>IDプロバイダのクライアントシークレット</value>
+  </data>
+  <data name="ClientSecret.Text" xml:space="preserve">
+    <value>クライアントシークレット:</value>
+  </data>
+  <data name="CreateUsers.HelpText" xml:space="preserve">
+    <value>新しいユーザを自動的に作成しますか?このオプションを無効にした場合、外部ログインでサインインするには、ユーザがサイトにすでに登録されている必要があります。</value>
+  </data>
+  <data name="CreateUsers.Text" xml:space="preserve">
+    <value>新しいユーザの作成:</value>
+  </data>
+  <data name="DomainFilter.HelpText" xml:space="preserve">
+    <value>電子メールドメインのフィルター基準を指定します（コンマで区切ります）。除外するドメインには、感嘆符（！）をプレフィックスとして付ける必要があります。たとえば、「microsoft.com、!hotmail.com」にはmicrosoft.comの電子メールアドレスが含まれますが、hotmail.comの電子メールアドレスは含まれません。</value>
+  </data>
+  <data name="DomainFilter.Text" xml:space="preserve">
+    <value>ドメインフィルタ:</value>
+  </data>
+  <data name="EmailClaimType.HelpText" xml:space="preserve">
+    <value>オプションで、IDプロバイダによって提供される電子メール アドレス要求のタイプ名を指定します。通常の値は電子メールです。</value>
+  </data>
+  <data name="EmailClaimType.Text" xml:space="preserve">
+    <value>メールクレームタイプ:</value>
+  </data>
+  <data name="ExternalLoginSettings.Heading" xml:space="preserve">
+    <value>外部ログイン設定</value>
+  </data>
+  <data name="LockoutSettings.Heading" xml:space="preserve">
+    <value>ロックアウト設定</value>
+  </data>
+  <data name="MetadataUrl.HelpText" xml:space="preserve">
+    <value>このプロバイダのメタデータを取得するための検出エンドポイント。 OpenID Connectプロバイダが標準的なアプローチ（つまり、/.well-known/openid-configuration）を使用しないかどうかのみを指定します</value>
+  </data>
+  <data name="MetadataUrl.Text" xml:space="preserve">
+    <value>メタデータURL:</value>
+  </data>
+  <data name="PasswordSettings.Heading" xml:space="preserve">
+    <value>パスワード設定</value>
+  </data>
+  <data name="PKCE.HelpText" xml:space="preserve">
+    <value>プロバイダがコード交換用プルーフキー（PKCE）をサポートしているかどうかを示します</value>
+  </data>
+  <data name="PKCE.Text" xml:space="preserve">
+    <value>PKCEの使用:</value>
+  </data>
+  <data name="ProviderName.HelpText" xml:space="preserve">
+    <value>ログインページに表示される外部ログインプロバイダ名</value>
+  </data>
+  <data name="ProviderName.Text" xml:space="preserve">
+    <value>プロバイダ名:</value>
+  </data>
+  <data name="ProviderType.HelpText" xml:space="preserve">
+    <value>外部ログインプロバイダの種類を選択します</value>
+  </data>
+  <data name="ProviderType.Text" xml:space="preserve">
+    <value>プロバイダタイプ:</value>
+  </data>
+  <data name="RedirectUrl.HelpText" xml:space="preserve">
+    <value>通常はプロバイダに登録する必要があるリダイレクトURL（またはコールバックURL）</value>
+  </data>
+  <data name="RedirectUrl.Text" xml:space="preserve">
+    <value>リダイレクト Url:</value>
+  </data>
+  <data name="Scopes.HelpText" xml:space="preserve">
+    <value>プロバイダから要求するスコープのリスト（カンマで区切られます）。何も指定されていない場合、デフォルトで標準のスコープが使用されます。</value>
+  </data>
+  <data name="Scopes.Text" xml:space="preserve">
+    <value>スコープ:</value>
+  </data>
+  <data name="TokenUrl.HelpText" xml:space="preserve">
+    <value>認証トークンを取得するためのエンドポイント</value>
+  </data>
+  <data name="TokenUrl.Text" xml:space="preserve">
+    <value>トークン Url:</value>
+  </data>
+  <data name="UserInfoUrl.HelpText" xml:space="preserve">
+    <value>ユーザ情報を取得するためのエンドポイント。これは、ユーザの電子メールアドレスを含むAPIまたはページURLである必要があります。</value>
+  </data>
+  <data name="UserInfoUrl.Text" xml:space="preserve">
+    <value>ユーザ情報URL:</value>
+  </data>
+  <data name="Audience.HelpText" xml:space="preserve">
+    <value>オプションで、トークンのオーディエンスを提供します</value>
+  </data>
+  <data name="Audience.Text" xml:space="preserve">
+    <value>オーディエンス:</value>
+  </data>
+  <data name="UserSettings.Heading" xml:space="preserve">
+    <value>ユーザ設定</value>
+  </data>
+  <data name="CookieName.HelpText" xml:space="preserve">
+    <value>サイトごとにカスタム認証 Cookie 名を使用することを選択できます。ただし、同じドメイン上のサイト間で認証クッキーを共有する場合は、一貫したクッキー名を使用する必要があります。また、認証クッキー名を変更すると、現在のすべてのユーザがログアウトされることにも注意してください。</value>
+  </data>
+  <data name="CookieName.Text" xml:space="preserve">
+    <value>Cookie名:</value>
+  </data>
+  <data name="CreateToken" xml:space="preserve">
+    <value>トークンを作成する</value>
+  </data>
+  <data name="Issuer.HelpText" xml:space="preserve">
+    <value>オプションで、トークンの発行者を提供します</value>
+  </data>
+  <data name="Issuer.Text" xml:space="preserve">
+    <value>発行者:</value>
+  </data>
+  <data name="Lifetime.HelpText" xml:space="preserve">
+    <value>トークンの有効期間（分）</value>
+  </data>
+  <data name="Lifetime.Text" xml:space="preserve">
+    <value>ライフタイム:</value>
+  </data>
+  <data name="Secret.HelpText" xml:space="preserve">
+    <value>API アクセスを提供する場合は、トークンの暗号化に使用するシークレットを指定してください。最適なセキュリティを確保するには、シークレットは 16 文字以上にする必要があります。このシークレットを変更すると、既存のトークンはすべて無効になり、再生成が必要になることに注意してください。</value>
+  </data>
+  <data name="Secret.Text" xml:space="preserve">
+    <value>シークレット:</value>
+  </data>
+  <data name="Token.HelpText" xml:space="preserve">
+    <value>[トークンの作成]ボタンを選択して、有効期間の長いアクセストークン（1年間有効）を生成します。今後アクセスできなくなるため、このトークンは安全な場所に保管してください。</value>
+  </data>
+  <data name="Token.Text" xml:space="preserve">
+    <value>トークン:</value>
+  </data>
+  <data name="TokenSettings.Heading" xml:space="preserve">
+    <value>トークン設定</value>
+  </data>
+  <data name="TwoFactor.HelpText" xml:space="preserve">
+    <value>ユーザが2要素認証を使用できるようにしますか?このオプションが正しく機能するには、スケジュールされたジョブの通知ジョブを有効にする必要があり、SMTPオプションをサイト設定で構成する必要があることに注意してください。</value>
+  </data>
+  <data name="TwoFactor.Text" xml:space="preserve">
+    <value>2要素認証の許可:</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>無効</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>必須</value>
+  </data>
+  <data name="LastLoginOn" xml:space="preserve">
+    <value>前回ログイン</value>
+  </data>
+  <data name="IdentifierClaimType.HelpText" xml:space="preserve">
+    <value>プロバイダによって提供された一意のユーザ識別子要求の名前</value>
+  </data>
+  <data name="IdentifierClaimType.Text" xml:space="preserve">
+    <value>識別子クレーム:</value>
+  </data>
+  <data name="Parameters.HelpText" xml:space="preserve">
+    <value>オプションで、ID プロバイダーに送信する名前と値のペアとして追加のパラメータを指定します (複数ある場合はカンマで区切ります)</value>
+  </data>
+  <data name="Parameters.Text" xml:space="preserve">
+    <value>パラメータ:</value>
+  </data>
+  <data name="RoleClaimType.HelpText" xml:space="preserve">
+    <value>必要に応じて、ID プロバイダによって提供されるロール クレームの名前を指定します。これらの役割は、サイト内で割り当てられた内部ユーザの役割に加えて使用されます。</value>
+  </data>
+  <data name="RoleClaimType.Text" xml:space="preserve">
+    <value>ロールクレーム:</value>
+  </data>
+  <data name="RoleClaimMappings.HelpText" xml:space="preserve">
+    <value>必要に応じて、アイデンティティ プロバイダーによって提供されるロール名のカンマ区切りのリストと、サイト ロールへのマッピングを指定します。たとえば、アイデンティティ プロバイダーに「Admin」ロール名が含まれており、それを「Administrators」サイト ロールにマップする場合は、「Admin:Administrators」と指定する必要があります。</value>
+  </data>
+  <data name="RoleClaimMappings.Text" xml:space="preserve">
+    <value>ロール要求のマッピング:</value>
+  </data>
+  <data name="SynchronizeRoles.HelpText" xml:space="preserve">
+    <value>このオプションは、サイト ロールが ID プロバイダーによってユーザーに提供されるロールと正確に一致するように、ロールの割り当てを追加または削除します。</value>
+  </data>
+  <data name="SynchronizeRoles.Text" xml:space="preserve">
+    <value>ロールの同期:</value>
+  </data>
+  <data name="ProfileClaimTypes.HelpText" xml:space="preserve">
+    <value>必要に応じて、アイデンティティ プロバイダによって提供されるユーザ プロファイル クレームのカンマ区切りのリストと、ユーザ プロファイル定義へのマッピングを指定します。たとえば、アイデンティティ プロバイダに「given_name」クレームが含まれており、「FirstName」ユーザ プロファイル定義がある場合は、「given_name:FirstName」を指定する必要があります。</value>
+  </data>
+  <data name="ProfileClaimTypes.Text" xml:space="preserve">
+    <value>ユーザプロファイルクレーム:</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>ユーザ名</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>メール</value>
+  </data>
+  <data name="ImportUsers.Text" xml:space="preserve">
+    <value>ユーザ取込</value>
+  </data>
+  <data name="AuthFlow.Code" xml:space="preserve">
+    <value>認可コード</value>
+  </data>
+  <data name="AuthFlow.CodeIdToken" xml:space="preserve">
+    <value>認可コードID + IDトークン</value>
+  </data>
+  <data name="AuthFlow.CodeIdTokenToken" xml:space="preserve">
+    <value>認可コード + IDトークン + アクセストークン</value>
+  </data>
+  <data name="AuthFlow.CodeToken" xml:space="preserve">
+    <value>認可コード + アクセストークン</value>
+  </data>
+  <data name="AuthFlow.IdToken" xml:space="preserve">
+    <value>IDトークン</value>
+  </data>
+  <data name="AuthFlow.IdTokenToken" xml:space="preserve">
+    <value>IDトークン + アクセストークン</value>
+  </data>
+  <data name="AuthFlow.None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="AuthFlow.Token" xml:space="preserve">
+    <value>アクセストークン</value>
+  </data>
+  <data name="AuthResponseType.Text" xml:space="preserve">
+    <value>認証応答タイプ:</value>
+  </data>
+  <data name="AuthResponseType.HelpText" xml:space="preserve">
+    <value>認証応答タイプを指定します。デフォルトは、最新の OAuth 仕様に基づいて最も安全なオプションであると考えられる認可コードです。</value>
+  </data>
+  <data name="VerifyUsers.HelpText" xml:space="preserve">
+    <value>既存のユーザが外部ログインをリンクするために追加のメール検証手順を実行するようにしますか?このオプションを無効にすると、既存のユーザは自動的にリンクされます。</value>
+  </data>
+  <data name="VerifyUsers.Text" xml:space="preserve">
+    <value>既存のユーザを確認:</value>
+  </data>
+  <data name="AlwaysRemember.HelpText" xml:space="preserve">
+    <value>このオプションを有効にすると、Cookie の有効期限と連動して永続的な Cookie が設定され、ユーザが次回サイトにアクセスしたときに自動的にサインインします。デフォルトでは、サイトはセッション Cookie を使用します。</value>
+  </data>
+  <data name="AlwaysRemember.Text" xml:space="preserve">
+    <value>ユーザを常に記憶:</value>
+  </data>
+  <data name="CookieExpiration.HelpText" xml:space="preserve">
+    <value>サイトごとにカスタムの認証 Cookie の有効期限を使用することを選択できます (例: 8 時間の「08:00:00」)。指定しない場合、デフォルトは 14 日です。</value>
+  </data>
+  <data name="CookieExpiration.Text" xml:space="preserve">
+    <value>Cookie の有効期限:</value>
+  </data>
+  <data name="ReviewClaims.Text" xml:space="preserve">
+    <value>クレームの確認:</value>
+  </data>
+  <data name="ReviewClaims.HelpText" xml:space="preserve">
+    <value>このオプションは、プロバイダから返されたクレームの完全なリストをイベント ログに記録します。テスト目的でのみ使用してください。このオプションを有効にすると、外部ログインが制限されます。</value>
+  </data>
+  <data name="NameClaimType.HelpText" xml:space="preserve">
+    <value>必要に応じて、アイデンティティ プロバイダによって提供されるユーザ名クレームのタイプ名を指定します。通常の値は「名前」です。</value>
+  </data>
+  <data name="NameClaimType.Text" xml:space="preserve">
+    <value>クレーム名:</value>
+  </data>
+  <data name="Provider.HelpText" xml:space="preserve">
+    <value>外部ログインプロバイダーを選択します</value>
+  </data>
+  <data name="Provider.Text" xml:space="preserve">
+    <value>プロバイダー:</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="OAuth2" xml:space="preserve">
+    <value>OAuth 2.0</value>
+  </data>
+  <data name="OIDC" xml:space="preserve">
+    <value>OpenID Connect (OIDC)</value>
+  </data>
+  <data name="SaveTokens.Text" xml:space="preserve">
+    <value>トークンの保存:</value>
+  </data>
+  <data name="SaveTokens.HelpText" xml:space="preserve">
+    <value>成功したログイン後にアクセスおよびリフレッシュトークンを保存するかどうかを指定します。デフォルトは、認証クッキーのサイズを減らすためにfalseです。</value>
+  </data>
+  <data name="Success.DeleteUser" xml:space="preserve">
+    <value>ユーザーが正常に削除されました</value>
+  </data>
+  <data name="Error.DeleteUser" xml:space="preserve">
+    <value>ユーザー削除エラー</value>
+  </data>
+  <data name="LogoutEverywhere.Text" xml:space="preserve">
+    <value>どこでもログアウト可:</value>
+  </data>
+  <data name="LogoutEverywhere.HelpText" xml:space="preserve">
+    <value>ユーザーをあらゆるデバイス上のすべてのアクティブなセッションからログアウトさせますか、それとも現在のセッションのみからログアウトさせますか?</value>
+  </data>
+  <data name="AllowHostRole.Text" xml:space="preserve">
+    <value>ホストの役割を許可する:</value>
+  </data>
+  <data name="AllowHostRole.HelpText" xml:space="preserve">
+    <value>IDプロバイダーのホストロールがサポートされているかどうかを示します。このオプションを選択すると、ホストユーザーがインストール内のすべてのサイトを管理できるようになるため、注意して使用してください。</value>
+  </data>
+</root>

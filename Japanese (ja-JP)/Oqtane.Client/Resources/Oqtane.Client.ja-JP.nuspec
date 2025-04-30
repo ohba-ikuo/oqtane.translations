@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Oqtane.Client.ja-JP</id>
+    <version>6.1.2</version>
+    <authors>Ikuo Ohba</authors>
+    <owners>Lxiv.Inc</owners>
+    <title>Oqtane Framework ja-JP Translation</title>
+    <description>Oqtane Framework ja-JP Translation</description>
+    <copyright>.NET Foundation</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/oqtane/oqtane.translations</projectUrl>
+    <icon>icon.png</icon>
+    <tags>oqtane translation</tags>
+    <releaseNotes></releaseNotes>
+    <summary></summary>
+    <dependencies>
+      <dependency id="Oqtane.Framework" version="6.1.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\Oqtane.Server\bin\Release\net9.0\ja-JP\Oqtane.Client.resources.dll" target="lib\net9.0\ja-JP" /> 
+    <file src="..\..\Oqtane.Server\bin\Release\net9.0\ja-JP\Oqtane.Server.resources.dll" target="lib\net9.0\ja-JP" /> 
+    <file src="..\..\Oqtane.Server\wwwroot\icon.png" target="" />
+  </files>
+</package>
