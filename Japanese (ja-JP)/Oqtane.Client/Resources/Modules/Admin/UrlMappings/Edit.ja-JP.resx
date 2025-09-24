@@ -121,10 +121,10 @@
     <value>リダイレクト先:</value>
   </data>
   <data name="MappedUrl.HelpText" xml:space="preserve">
-    <value>ユーザがリダイレクトされる相対URLまたは絶対URL</value>
+    <value>ユーザーがリダイレクトされるURL（絶対または相対）。サイトのルートパスには「/」を使用してください。</value>
   </data>
   <data name="Url.HelpText" xml:space="preserve">
-    <value>サイト内の特定のページへのパスを識別する相対URL</value>
+    <value>サイト内の特定のページへのパスを識別する URL (絶対または相対)</value>
   </data>
   <data name="Url.Text" xml:space="preserve">
     <value>Url:</value>

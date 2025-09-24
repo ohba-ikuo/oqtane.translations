@@ -146,7 +146,7 @@
   </data>
   <data name="InstallTheme.Text" xml:space="preserve">
     <value>テーマインストール</value>
-  </data>    
+  </data>
   <data name="ViewTheme.Text" xml:space="preserve">
     <value>参照</value>
   </data>
@@ -154,18 +154,15 @@
     <value>編集</value>
   </data>
   <data name="Enabled" xml:space="preserve">
-    <value>有効?</value>
-  </data>
-  <data name="Assign" xml:space="preserve">
-    <value>アサイン</value>
+    <value>有効</value>
   </data>
   <data name="Synchronize" xml:space="preserve">
-    <value>同期する</value>
+    <value>アップデート確認</value>
   </data>
   <data name="Success.Theme.Synchronize" xml:space="preserve">
-    <value>テーマはマーケットプレイスと正常に同期されました</value>
+    <value>テーマ情報はマーケットプレイスから取得されました</value>
   </data>
   <data name="Error.Theme.Synchronize" xml:space="preserve">
-    <value>マーケットプレイスとのテーマ同期エラー</value>
+    <value>マーケットプレイスからテーマ情報を取得中にエラーが発生しました</value>
   </data>
 </root>

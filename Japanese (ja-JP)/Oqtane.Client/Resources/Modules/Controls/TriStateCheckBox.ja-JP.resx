@@ -123,4 +123,7 @@
   <data name="PermissionDenied" xml:space="preserve">
     <value>アクセス拒否</value>
   </data>
+  <data name="PermissionDisabled" xml:space="preserve">
+    <value>権限が無効</value>
+  </data>
 </root>

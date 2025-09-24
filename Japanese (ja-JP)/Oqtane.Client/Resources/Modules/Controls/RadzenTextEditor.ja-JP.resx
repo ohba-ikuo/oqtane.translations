@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,40 +117,103 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Role" xml:space="preserve">
-    <value>ロール</value>
+  <data name="Background" xml:space="preserve">
+    <value>エディタ背景:</value>
   </data>
-  <data name="User" xml:space="preserve">
-    <value>ユーザ</value>
+  <data name="Close" xml:space="preserve">
+    <value>閉じる</value>
   </data>
-  <data name="Username.Enter" xml:space="preserve">
-    <value>ユーザ名を入力してください</value>
+  <data name="Dark" xml:space="preserve">
+    <value>ダーク</value>
   </data>
-  <data name="Message.Username.DontExist" xml:space="preserve">
-    <value>ユーザ名は存在しません</value>
+  <data name="Default" xml:space="preserve">
+    <value>デフォルト</value>
   </data>
-  <data name="ModuleDefinition" xml:space="preserve">
-    <value>モジュール</value>
+  <data name="DialogTitle.SelectImage" xml:space="preserve">
+    <value>画像選択</value>
   </data>
-  <data name="Page" xml:space="preserve">
-    <value>ページ</value>
+  <data name="FontName.Placeholder" xml:space="preserve">
+    <value>フォント</value>
   </data>
-  <data name="Folder" xml:space="preserve">
-    <value>フォルダ</value>
+  <data name="FontName.Title" xml:space="preserve">
+    <value>フォント名</value>
   </data>
-  <data name="View" xml:space="preserve">
-    <value>表示</value>
+  <data name="FontSize.Placeholder" xml:space="preserve">
+    <value>サイズ</value>
   </data>
-  <data name="Edit" xml:space="preserve">
-    <value>編集</value>
+  <data name="FontSize.Title" xml:space="preserve">
+    <value>フォントサイズ</value>
   </data>
-  <data name="Utilize" xml:space="preserve">
-    <value>利用</value>
+  <data name="FormatBlock.Placeholder" xml:space="preserve">
+    <value>フォーマット</value>
   </data>
-  <data name="Browse" xml:space="preserve">
-    <value>閲覧</value>
+  <data name="FormatBlock.Title" xml:space="preserve">
+    <value>フォーマットブロック</value>
+  </data>
+  <data name="theme.humanistic" xml:space="preserve">
+    <value>ヒューマニスティック</value>
+  </data>
+  <data name="theme.humanistic-dark" xml:space="preserve">
+    <value>ヒューマニスティックダーク</value>
+  </data>
+  <data name="InsertImage" xml:space="preserve">
+    <value>画像挿入</value>
+  </data>
+  <data name="Light" xml:space="preserve">
+    <value>ライト</value>
+  </data>
+  <data name="theme.material" xml:space="preserve">
+    <value>マテリアル</value>
+  </data>
+  <data name="theme.material-dark" xml:space="preserve">
+    <value>マテリアルダーク</value>
+  </data>
+  <data name="Message.Require.Image" xml:space="preserve">
+    <value>挿入する画像を選択してください</value>
   </data>
   <data name="Module" xml:space="preserve">
     <value>モジュール</value>
+  </data>
+  <data name="Placeholder" xml:space="preserve">
+    <value>コンテンツを入力してください...</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Scope" xml:space="preserve">
+    <value>スコープ:</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>サイト</value>
+  </data>
+  <data name="theme.software" xml:space="preserve">
+    <value>ソフトウェア</value>
+  </data>
+  <data name="theme.software-dark" xml:space="preserve">
+    <value>ソフトウェアダーク</value>
+  </data>
+  <data name="theme.standard" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="theme.standard-dark" xml:space="preserve">
+    <value>標準ダーク</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>テーマ:</value>
+  </data>
+  <data name="theme.dark" xml:space="preserve">
+    <value>ダーク</value>
+  </data>
+  <data name="theme.default" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="Toolbar" xml:space="preserve">
+    <value>ツールバーアイテム:</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>リセット</value>
   </data>
 </root>

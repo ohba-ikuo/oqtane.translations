@@ -132,6 +132,18 @@
   <data name="AllowRegistration.Text" xml:space="preserve">
     <value>登録の許可:</value>
   </data>
+  <data name="RegisterUrl.HelpText" xml:space="preserve">
+    <value>オプションでカスタム登録URLを指定します</value>
+  </data>
+  <data name="RegisterUrl.Text" xml:space="preserve">
+    <value>登録Url: </value>
+  </data>
+  <data name="ProfileUrl.HelpText" xml:space="preserve">
+    <value>オプションでカスタムユーザープロフィールURLを指定します</value>
+  </data>
+  <data name="ProfileUrl.Text" xml:space="preserve">
+    <value>プロフィールUrl: </value>
+  </data>
   <data name="Error.SaveSiteSettings" xml:space="preserve">
     <value>設定の保存エラー</value>
   </data>
@@ -208,7 +220,7 @@
     <value>このサイトでローカルに管理されているユーザ名とパスワードを使用してユーザがサインインできるようにしますか?このオプションを無効にする必要があるのは、外部ログインプロバイダを既に正常に構成している場合のみです。無効にしないと、サイトから自分自身をロックアウトする可能性があります。</value>
   </data>
   <data name="AllowSiteLogin.Text" xml:space="preserve">
-    <value>ログイン許可:</value>
+    <value>ローカルログイン許可:</value>
   </data>
   <data name="Authority.HelpText" xml:space="preserve">
     <value>OpenID Connectプロバイダに関連付けられたAuthority UrlまたはIssuer Url</value>
@@ -358,7 +370,13 @@
     <value>ユーザが2要素認証を使用できるようにしますか?このオプションが正しく機能するには、スケジュールされたジョブの通知ジョブを有効にする必要があり、SMTPオプションをサイト設定で構成する必要があることに注意してください。</value>
   </data>
   <data name="TwoFactor.Text" xml:space="preserve">
-    <value>2要素認証の許可:</value>
+    <value>二要素認証</value>
+  </data>
+  <data name="RequireConfirmedEmail.HelpText" xml:space="preserve">
+    <value>登録ユーザーがログインする前に、電子メール アドレスの確認を求めますか?</value>
+  </data>
+  <data name="RequireConfirmedEmail.Text" xml:space="preserve">
+    <value>確認済みのメールが必要</value>
   </data>
   <data name="Disabled" xml:space="preserve">
     <value>無効</value>
@@ -490,10 +508,16 @@
     <value>情報</value>
   </data>
   <data name="OAuth2" xml:space="preserve">
-    <value>OAuth 2.0</value>
+    <value>OAuth 2.0 (OAuth2)</value>
   </data>
   <data name="OIDC" xml:space="preserve">
     <value>OpenID Connect (OIDC)</value>
+  </data>
+  <data name="RequireNonce.Text" xml:space="preserve">
+    <value>ノンスが必要</value>
+  </data>
+  <data name="RequireNonce.HelpText" xml:space="preserve">
+    <value>IDトークンにNonce検証が必要かどうかを指定します（デフォルトはtrue）</value>
   </data>
   <data name="SaveTokens.Text" xml:space="preserve">
     <value>トークンの保存:</value>
@@ -518,5 +542,17 @@
   </data>
   <data name="AllowHostRole.HelpText" xml:space="preserve">
     <value>IDプロバイダーのホストロールがサポートされているかどうかを示します。このオプションを選択すると、ホストユーザーがインストール内のすべてのサイトを管理できるようになるため、注意して使用してください。</value>
+  </data>
+  <data name="Active Users" xml:space="preserve">
+    <value>アクティブユーザー</value>
+  </data>
+  <data name="Deleted Users" xml:space="preserve">
+    <value>削除されたユーザー</value>
+  </data>
+  <data name="CookieDomain.Text" xml:space="preserve">
+    <value>クッキードメイン:</value>
+  </data>
+  <data name="CookieDomain.HelpText" xml:space="preserve">
+    <value>サブドメイン間でCookieを共有する場合は、先頭にドットを付けたルートドメインを指定する必要があります（例：「.example.com」）。</value>
   </data>
 </root>

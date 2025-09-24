@@ -157,7 +157,7 @@
     <value>このプロファイルアイテムのデフォルト値</value>
   </data>
   <data name="Options.HelpText" xml:space="preserve">
-    <value>ユーザが選択できるオプションのコンマ区切りリスト</value>
+    <value>オプションのカンマ区切りリスト。オプションには、コロンで区切られたキーと値（例：キー:値）を含めることができます。また、カスタム設定（例：'EntityName:Countries'）からオプションを動的に読み込むこともできます。</value>
   </data>
   <data name="Required.HelpText" xml:space="preserve">
     <value>ユーザはこのプロファイルアイテムの値を提供する必要がありますか?</value>

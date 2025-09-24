@@ -136,7 +136,7 @@
     <value>新モジュール追加</value>
   </data>
   <data name="Module.AddExisting" xml:space="preserve">
-    <value>存在モジュールを追加</value>
+    <value>既存モジュールを追加</value>
   </data>
   <data name="Modules" xml:space="preserve">
     <value>モジュール</value>
@@ -190,14 +190,17 @@
     <value>このページを削除してもよろしいですか?</value>
   </data>
   <data name="Location" xml:space="preserve">
-    <value>ロケーション:</value>
+    <value>位置:</value>
   </data>
   <data name="LocationBottom" xml:space="preserve">
-    <value>ボトム</value>
+    <value>最後</value>
   </data>
   <data name="LocationTop" xml:space="preserve">
-    <value>トップ</value>
+    <value>最初</value>
   </data>
+  <data name="Module.CopyExisting" xml:space="preserve">
+    <value>既存モジュールをコピー</value>
+  </data>  
   <!-- Japanese Start -->
   <data name="Logout" xml:space="preserve">
     <value>ログアウト</value>

@@ -126,6 +126,9 @@
   <data name="Success.Module.Download" xml:space="preserve">
     <value>モジュール パッケージが正常にダウンロードされました。インストールを完了するためアプリケーションを&lt;a href={0}&gt;[再起動]&lt;/a&gt;する必要があります。</value>
   </data>
+  <data name="Success.Module.Upload" xml:space="preserve">
+    <value>モジュールのアップロードが成功しました。インストールを完了するためアプリケーションを&lt;a href={0}&gt;[再起動]&lt;/a&gt;する必要があります。</value>
+  </data>
   <data name="Error.Module.Download" xml:space="preserve">
     <value>モジュールのダウンロード中にエラーが発生しました</value>
   </data>

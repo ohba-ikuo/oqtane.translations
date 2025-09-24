@@ -183,4 +183,7 @@
   <data name="Refresh.Text" xml:space="preserve">
     <value>更新</value>
   </data>
+  <data name="Message.Job.Disabled" xml:space="preserve">
+    <value>無効状態の間はジョブを開始できません。</value>
+  </data>
 </root>

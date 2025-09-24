@@ -139,7 +139,7 @@
     <value>コンテナ: </value>
   </data>
   <data name="DisplayOnAllPages.Text" xml:space="preserve">
-    <value>すべてのページに表示しますか?</value>
+    <value>すべてのページに表示</value>
   </data>
   <data name="Settings.Heading" xml:space="preserve">
     <value>設定</value>
@@ -156,7 +156,7 @@
   <data name="Module.Text" xml:space="preserve">
     <value>モジュール：</value>
   </data>
-  <data name="Module Settings.Heading" xml:space="preserve">
+  <data name="ModuleSettings.Heading" xml:space="preserve">
     <value>モジュール設定</value>
   </data>
   <data name="Pane.HelpText" xml:space="preserve">
@@ -189,8 +189,19 @@
   <data name="ModuleSettings.Title" xml:space="preserve">
     <value>モジュール設定</value>
   </data>
-  <!-- Japanese Add -->
-  <data name="ModuleSettings.Heading" xml:space="preserve">
-    <value>モジュール設定</value>
+  <data name="Header.Text" xml:space="preserve">
+    <value>ヘッダ:</value>
+  </data>
+  <data name="Header.HelpText" xml:space="preserve">
+    <value>オプションでモジュールインスタンスの上に挿入するコンテンツを提供する</value>
+  </data>
+  <data name="Footer.Text" xml:space="preserve">
+    <value>フッタ:</value>
+  </data>
+  <data name="Footer.HelpText" xml:space="preserve">
+    <value>オプションでモジュールインスタンスの下に挿入するコンテンツを提供する</value>
+  </data>
+  <data name="ModuleContent.Heading" xml:space="preserve">
+    <value>コンテンツ</value>
   </data>
 </root>

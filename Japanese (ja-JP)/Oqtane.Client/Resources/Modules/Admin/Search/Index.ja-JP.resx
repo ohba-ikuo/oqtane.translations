@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Enabled.Text" xml:space="preserve">
-    <value>有効化:</value>
+    <value>有効:</value>
   </data>
   <data name="Enabled.HelpText" xml:space="preserve">
     <value>検索インデックス作成が有効かどうかを指定します</value>

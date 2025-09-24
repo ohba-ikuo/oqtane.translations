@@ -127,7 +127,7 @@
     <value>モジュールのダウンロード中にエラーが発生しました</value>
   </data>
   <data name="Confirm.Module.Delete" xml:space="preserve">
-    <value>{0}モジュールを削除してもよろしいですか?</value>
+    <value>{0}モジュールをアンインストールしてもよろしいですか?</value>
   </data>
   <data name="Error.Module.Load" xml:space="preserve">
     <value>モジュール読み込み時にエラーが発生しました。</value>
@@ -157,15 +157,15 @@
     <value>モジュール</value>
   </data>
   <data name="Enabled" xml:space="preserve">
-    <value>有効化:</value>
+    <value>有効</value>
   </data>
   <data name="Synchronize" xml:space="preserve">
-    <value>同期する</value>
+    <value>アップデート確認</value>
   </data>
   <data name="Success.Module.Synchronize" xml:space="preserve">
-    <value>モジュールはマーケットプレイスと正常に同期されました</value>
+    <value>モジュール情報はマーケットプレイスから取得されました</value>
   </data>
   <data name="Error.Module.Synchronize" xml:space="preserve">
-    <value>マーケットプレイスとのモジュール同期エラー</value>
+    <value>マーケットプレイスからモジュール情報を取得中にエラーが発生しました</value>
   </data>
 </root>

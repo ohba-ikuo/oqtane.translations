@@ -303,4 +303,10 @@
   <data name="PersonalizedUrlPath.HelpText" xml:space="preserve">
     <value>あなたのパーソナライズされたページのURLパスを入力してください。スペースや句読点はダッシュ(-)に置き換えられることに注意してください。</value>
   </data>
+  <data name="UpdateModulePermissions.Text" xml:space="preserve">
+    <value>モジュール権限の更新可否</value>
+  </data>
+  <data name="UpdateModulePermissions.HelpText" xml:space="preserve">
+    <value>ページ権限の変更をこのページのモジュールに反映するかどうかを指定します</value>
+  </data>
 </root>

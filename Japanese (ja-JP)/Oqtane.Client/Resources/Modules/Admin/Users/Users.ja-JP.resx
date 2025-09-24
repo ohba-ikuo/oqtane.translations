@@ -145,6 +145,6 @@
     <value>新規ユーザが電子メール通知を受信する必要があるかどうかを指定します</value>
   </data>
   <data name="Notify.Text" xml:space="preserve">
-    <value>通知しますか?</value>
+    <value>通知する</value>
   </data>
 </root>

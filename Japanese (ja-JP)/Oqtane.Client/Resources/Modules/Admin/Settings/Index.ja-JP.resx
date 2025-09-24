@@ -117,40 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Role" xml:space="preserve">
-    <value>ロール</value>
+  <data name="Confirm.DeleteSetting" xml:space="preserve">
+    <value>設定{0} を削除してもよろしいですか?</value>
   </data>
-  <data name="User" xml:space="preserve">
-    <value>ユーザ</value>
+  <data name="Error.DeleteSetting" xml:space="preserve">
+    <value>設定の削除中にエラーが発生しました</value>
   </data>
-  <data name="Username.Enter" xml:space="preserve">
-    <value>ユーザ名を入力してください</value>
+  <data name="AddSetting.Text" xml:space="preserve">
+    <value>設定の追加</value>
   </data>
-  <data name="Message.Username.DontExist" xml:space="preserve">
-    <value>ユーザ名は存在しません</value>
+  <data name="DeleteSetting.Header" xml:space="preserve">
+    <value>設定の削除</value>
   </data>
-  <data name="ModuleDefinition" xml:space="preserve">
-    <value>モジュール</value>
+  <data name="DeleteSetting.Text" xml:space="preserve">
+    <value>削除</value>
   </data>
-  <data name="Page" xml:space="preserve">
-    <value>ページ</value>
-  </data>
-  <data name="Folder" xml:space="preserve">
-    <value>フォルダ</value>
-  </data>
-  <data name="View" xml:space="preserve">
-    <value>表示</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
+  <data name="EditSetting.Text" xml:space="preserve">
     <value>編集</value>
   </data>
-  <data name="Utilize" xml:space="preserve">
-    <value>利用</value>
+  <data name="Select Entity" xml:space="preserve">
+    <value>エンティティ選択</value>
   </data>
-  <data name="Browse" xml:space="preserve">
-    <value>閲覧</value>
+  <data name="Select Id" xml:space="preserve">
+    <value>Id選択</value>
   </data>
-  <data name="Module" xml:space="preserve">
-    <value>モジュール</value>
+  <data name="Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="ImportSettings.Text" xml:space="preserve">
+    <value>インポート</value>
   </data>
 </root>

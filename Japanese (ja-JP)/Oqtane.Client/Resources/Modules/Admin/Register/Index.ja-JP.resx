@@ -151,7 +151,7 @@
     <value>パスワードをもう一度入力して、上記で入力した値と一致することを確認します</value>
   </data>
   <data name="Confirm.Text" xml:space="preserve">
-    <value>パスワードを認証する:</value>
+    <value>確認パスワード:</value>
   </data>
   <data name="DisplayName.HelpText" xml:space="preserve">
     <value>あなたのフルネーム</value>
@@ -179,5 +179,11 @@
   </data>
   <data name="Login" xml:space="preserve">
     <value>すでにアカウントをお持ちですか?ログイン</value>
+  </data>
+  <data name="TimeZone.Text" xml:space="preserve">
+    <value>タイムゾーン:</value>
+  </data>
+  <data name="TimeZone.HelpText" xml:space="preserve">
+    <value>あなたのタイムゾーン</value>
   </data>
 </root>

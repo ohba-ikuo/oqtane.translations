@@ -192,8 +192,8 @@
   <data name="Port.HelpText" xml:space="preserve">
     <value>SMTPサーバのポート番号を入力します。ホスト名を指定する場合、このフィールドは必須であることに注意してください。</value>
   </data>
-  <data name="UseSsl.HelpText" xml:space="preserve">
-    <value>SMTPサーバにSSLが必要かどうかを指定します</value>
+  <data name="SmtpSSL.HelpText" xml:space="preserve">
+    <value>SMTPサーバーのSSL接続の種類を指定します</value>
   </data>
   <data name="SmtpUsername.HelpText" xml:space="preserve">
     <value>SMTPアカウントのユーザ名を入力します</value>
@@ -202,7 +202,7 @@
     <value>SMTPアカウントのパスワードを入力します</value>
   </data>
   <data name="SmtpSender.HelpText" xml:space="preserve">
-    <value>メールの送信元メールアドレスを入力します。このメールアドレスはSMTPサーバで承認される必要がある場合があることに注意してください。</value>
+    <value>メールの送信元となるメールアドレスを入力してください。このメールアドレスは通常、SMTPサーバーで認証される必要がありますのでご注意ください。</value>
   </data>
   <data name="EnablePWA.HelpText" xml:space="preserve">
     <value>このサイトをプログレッシブWebアプリケーション（PWA）として利用できるようにするかどうかを選択します</value>
@@ -240,8 +240,8 @@
   <data name="Port.Text" xml:space="preserve">
     <value>ポート: </value>
   </data>
-  <data name="UseSsl.Text" xml:space="preserve">
-    <value>SSL 有効化: </value>
+  <data name="SmtpSSL.Text" xml:space="preserve">
+    <value>SSL オプション: </value>
   </data>
   <data name="SmtpUsername.Text" xml:space="preserve">
     <value>ユーザ名: </value>
@@ -361,7 +361,7 @@
     <value>必要に応じて、ページヘッダに含めるコンテンツ (メタ、リンク、スクリプトタグなど) を入力します。</value>
   </data>
   <data name="HeadContent.Text" xml:space="preserve">
-    <value>先頭のコンテンツ:</value>
+    <value>ヘッダコンテンツ:</value>
   </data>
   <data name="BodyContent.HelpText" xml:space="preserve">
     <value>必要に応じて、ページ本文に含めるコンテンツ (スクリプトタグなど) を入力します。</value>
@@ -372,11 +372,11 @@
   <data name="PageContent.Heading" xml:space="preserve">
     <value>ページコンテンツ</value>
   </data>
-  <data name="SMTPEnabled.HelpText" xml:space="preserve">
-    <value>このサイトで SMTP を有効にするかどうかを指定します</value>
+  <data name="SmtpEnabled.HelpText" xml:space="preserve">
+    <value>このサイトでSMTPが有効になっているかどうかを指定します</value>
   </data>
-  <data name="SMTPEnabled.Text" xml:space="preserve">
-    <value>有効:</value>
+  <data name="SmtpEnabled.Text" xml:space="preserve">
+    <value>有効</value>
   </data>
   <data name="Version.HelpText" xml:space="preserve">
     <value>サイトのバージョン (サイト コンテンツの移行用)</value>
@@ -447,6 +447,64 @@
   <data name="Success.SiteMap.CacheEvicted" xml:space="preserve">
     <value>サイトマップのキャッシュがクリアされました</value>
   </data>
+  <data name="TimeZone.Text" xml:space="preserve">
+    <value>タイムゾーン:</value>
+  </data>
+  <data name="TimeZone.HelpText" xml:space="preserve">
+    <value>サイトのフォルトタイムゾーン</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>基本</value>
+  </data>
+  <data name="OAuth2" xml:space="preserve">
+    <value>OAuth 2.0 (OAuth2)</value>
+  </data>
+  <data name="SmtpAuthentication.Text" xml:space="preserve">
+    <value>認証:</value>
+  </data>
+  <data name="SmtpAuthentication.HelpText" xml:space="preserve">
+    <value>SMTP認証の種類を指定する</value>
+  </data>
+  <data name="SmtpClientID.Text" xml:space="preserve">
+    <value>クライアントID:</value>
+  </data>
+  <data name="SmtpClientID.HelpText" xml:space="preserve">
+    <value>SMTPプロバイダーのクライアントID</value>
+  </data>
+  <data name="SmtpClientSecret.Text" xml:space="preserve">
+    <value>クライアントシークレット:</value>
+  </data>
+  <data name="SmtpClientSecret.HelpText" xml:space="preserve">
+    <value>SMTPプロバイダーのクライアントシークレット</value>
+  </data>
+  <data name="SmtpScopes.Text" xml:space="preserve">
+    <value>スコープ:</value>
+  </data>
+  <data name="SmtpScopes.HelpText" xml:space="preserve">
+    <value>SMTP プロバイダーのスコープのリスト (カンマ区切り)</value>
+  </data>
+  <data name="SmtpAuthority.Text" xml:space="preserve">
+    <value>権限URL:</value>
+  </data>
+  <data name="SmtpAuthority.HelpText" xml:space="preserve">
+    <value>SMTPプロバイダーの権限URL</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="StartTls" xml:space="preserve">
+    <value>TLS へアップグレード</value>
+  </data>
+  <data name="SslOnConnect" xml:space="preserve">
+    <value>SSL/TLS を要求する</value>
+  </data>
+  <data name="StartTlsWhenAvailable" xml:space="preserve">
+    <value>利用可能な場合は TLS を使用する</value>
+  </data>
+
   <!-- Japanese -->
   <data name="Hybrid.Text" xml:space="preserve">
     <value>ハイブリッド:</value>

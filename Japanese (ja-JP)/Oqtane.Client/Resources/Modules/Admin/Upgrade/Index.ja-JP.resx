@@ -124,7 +124,7 @@
     <value>フレームワークのダウンロード中にエラーが発生しました</value>
   </data>
   <data name="Framework.HelpText" xml:space="preserve">
-    <value>フレームワークパッケージをアップロードし、[インストール]を選択してインストールを完了します</value>
+    <value>フレームワークパッケージ(Oqtane.Framework.#.#.#.nupkg)をアップロードし、[インストール]を選択します</value>
   </data>
   <data name="Framework.Text" xml:space="preserve">
     <value>フレームワーク: </value>
@@ -144,9 +144,6 @@
   <data name="Message.Text" xml:space="preserve">
     <value>フレームワークはすでに最新です</value>
   </data>
-  <data name="MessageUpgrade.Text" xml:space="preserve">
-    <value>フレームワーク パッケージ (Oqtane.Framework.version.nupkg) をアップロードし、[アップグレード] を選択します</value>
-  </data>
   <data name="Localhost.Text" xml:space="preserve">
     <value>開発環境ではシステムアップデートを実行できません</value>
   </data>
@@ -157,13 +154,13 @@
     <value>バックアップファイル:</value>
   </data>
   <data name="Backup.HelpText" xml:space="preserve">
-    <value>アップグレードプロセス中にファイルをバックアップするかどうかを指定します。このオプションを無効にすると、一部の環境では操作性が向上します。</value>
+    <value>アップグレードプロセス中にファイルをバックアップするかどうかを指定します。このオプションを無効にすると、アップグレードにかかる時間が短縮されます。</value>
   </data>
   <!-- Japanese start -->
-  <data name="Download" xml:space="preserve">
+  <data name="Download.Name" xml:space="preserve">
     <value>ダウンロード</value>
   </data>
-  <data name="Upload" xml:space="preserve">
+  <data name="Upload.Name" xml:space="preserve">
     <value>アップロード</value>
   </data>
   <!-- Japanese end -->

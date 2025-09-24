@@ -147,9 +147,6 @@
   <data name="Message.User.NoLogIn" xml:space="preserve">
     <value>現在のユーザはログインしていません</value>
   </data>
-  <data name="Message.User.NoEmail" xml:space="preserve">
-    <value>ユーザアカウントの電子メールアドレスを指定する必要があります</value>
-  </data>
   <data name="Error.Profile.Load" xml:space="preserve">
     <value>ユーザプロファイルの読み込み中にエラーが発生しました</value>
   </data>
@@ -245,6 +242,12 @@
   </data>
   <data name="Logout Everywhere" xml:space="preserve">
     <value>ログアウト</value>
+  </data>
+  <data name="TimeZone.Text" xml:space="preserve">
+    <value>タイムゾーン:</value>
+  </data>
+  <data name="TimeZone.HelpText" xml:space="preserve">
+    <value>あなたのタイムゾーン</value>
   </data>
   <!-- Japanese -->
   <data name="Profile.Name" xml:space="preserve">

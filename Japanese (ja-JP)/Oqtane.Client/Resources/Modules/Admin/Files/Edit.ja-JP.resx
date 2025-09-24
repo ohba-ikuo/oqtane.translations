@@ -135,9 +135,6 @@
   <data name="Error.Folder.Save" xml:space="preserve">
     <value>フォルダの保存中にエラーが発生しました</value>
   </data>
-  <data name="Message.Folder.Files.InvalidDelete" xml:space="preserve">
-    <value>フォルダにファイルがあり、削除できません</value>
-  </data>
   <data name="Message.Folder.Subfolders.InvalidDelete" xml:space="preserve">
     <value>フォルダにサブフォルダがあり、削除できません</value>
   </data>
@@ -154,7 +151,7 @@
     <value>親: </value>
   </data>
   <data name="Permissions.Heading" xml:space="preserve">
-    <value>権限: </value>
+    <value>権限</value>
   </data>
   <data name="DeleteFolder.Header" xml:space="preserve">
     <value>フォルダ削除</value>

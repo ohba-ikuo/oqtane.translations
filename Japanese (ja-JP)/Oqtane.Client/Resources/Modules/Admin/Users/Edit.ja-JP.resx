@@ -210,4 +210,20 @@
   <data name="Error.User.Impersonate" xml:space="preserve">
     <value>ユーザーを偽装できません</value>
   </data>
+   <data name="TimeZone.Text" xml:space="preserve">
+    <value>タイムゾーン:</value>
+  </data>
+  <data name="TimeZone.HelpText" xml:space="preserve">
+    <value>ユーザのタイムゾーン</value>
+  </data>
+  <data name="Confirmed.Text" xml:space="preserve">
+    <value>確認済</value>
+  </data>
+  <data name="Confirmed.HelpText" xml:space="preserve">
+    <value>ユーザーのメールが検証されているかどうかを示します</value>
+  </data>
+  <!-- Japanese Add -->
+  <data name="Profile.Name" xml:space="preserve">
+    <value>プロフィール</value>
+  </data>
 </root>

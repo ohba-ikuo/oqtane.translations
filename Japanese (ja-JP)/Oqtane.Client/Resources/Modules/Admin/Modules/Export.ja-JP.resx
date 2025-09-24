@@ -121,7 +121,7 @@
     <value>エクスポート</value>
   </data>
   <data name="Content.HelpText" xml:space="preserve">
-    <value>モジュールの内容を入力してください</value>
+    <value>エクスポートオプションを選択すると、モジュールの内容を表示できます。</value>
   </data>
   <data name="Content.Text" xml:space="preserve">
     <value>コンテンツ: </value>
@@ -134,5 +134,26 @@
   </data>
   <data name="Export Content" xml:space="preserve">
     <value>コンテンツのエクスポート</value>
+  </data>
+  <data name="Content.Heading" xml:space="preserve">
+    <value>コンテンツ</value>
+  </data>
+  <data name="File.Heading" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="Folder.Text" xml:space="preserve">
+    <value>フォルダ:</value>
+  </data>
+  <data name="Folder.HelpText" xml:space="preserve">
+    <value>エクスポートしたコンテンツを保存するフォルダを選択します</value>
+  </data>
+  <data name="Message.Content.Export" xml:space="preserve">
+    <value>エクスポートを選択する前に、フォルダを選択し、ファイル名を入力してください。</value>
+  </data>
+  <data name="Filename.Text" xml:space="preserve">
+    <value>ファイル名:</value>
+  </data>
+  <data name="Filename.HelpText" xml:space="preserve">
+    <value>ファイル名を指定します（拡張子なし）</value>
   </data>
 </root>

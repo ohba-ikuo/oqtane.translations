@@ -126,6 +126,9 @@
   <data name="Success.Theme.Download" xml:space="preserve">
     <value>テーマが正常にダウンロードされました。 &lt;a href={0}&gt;再起動&lt;/a&gt; をクリックしてインストールを完了します。</value>
   </data>
+  <data name="Success.Theme.Upload" xml:space="preserve">
+    <value>テーマ パッケージが正常にアップロードされました。 &lt;a href={0}&gt;再起動&lt;/a&gt; をクリックしてインストールを完了します。</value>
+  </data>
   <data name="Error.Theme.Download" xml:space="preserve">
     <value>テーマのダウンロード中にエラーが発生しました</value>
   </data>

@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ForgotPassword" xml:space="preserve">
-    <value>パスワードをお忘れですか</value>
+    <value>パスワードを忘れた</value>
   </data>
   <data name="Success.Account.Verified" xml:space="preserve">
-    <value>ユーザアカウントが正常に確認されました。これで、以下のユーザ名とパスワードでログインできます。</value>
+    <value>ユーザーアカウントのメールアドレスが正常に確認されました。ユーザー名とパスワードでログインできます。</value>
   </data>
   <data name="Message.Account.NotVerified" xml:space="preserve">
-    <value>ユーザアカウントを確認できませんでした。詳細な手順については、管理者にお問い合わせください。</value>
+    <value>ユーザーアカウントのメールアドレスを確認できませんでした。詳しい手順については管理者にお問い合わせください。</value>
   </data>
   <data name="Success.Account.Linked" xml:space="preserve">
     <value>ユーザ アカウントが正常にリンクされました。以下の外部ログインでログインできるようになりました。</value>
@@ -133,7 +133,8 @@
     <value>外部ログインをリンクできませんでした。詳細な手順については、管理者にお問い合わせください。</value>
   </data>
   <data name="Error.Login.Fail" xml:space="preserve">
-    <value>ログインに失敗しました。パスワードでは大文字と小文字が区別されることを忘れないでください。複数回のログインに失敗した場合、アカウントは一定期間ロックアウトされます。ユーザアカウントは、最初に作成されたときに確認が必要なため、新しいユーザーの場合は電子メールを確認する必要があることに注意してください。</value>
+    <value>ログインに失敗しました。パスワードは大文字と小文字が区別されますのでご注意ください。複数回ログインに失敗した場合、アカウントは一定期間ロックされます。新規ユーザーアカウントではメールアドレスの確認が必要となる場合が多いため、詳細な手順が記載された通知がメールで届いている可能性がありますので、ご確認ください。
+</value>
   </data>
   <data name="Message.Required.UserInfo" xml:space="preserve">
     <value>すべての必須フィールドを入力してください</value>
@@ -145,7 +146,7 @@
     <value>アカウントに関連するユーザ名を入力してから、[パスワードを忘れた場合]オプションをもう一度選択してください</value>
   </data>
   <data name="Message.ForgotUser" xml:space="preserve">
-    <value>パスワードリセット通知については、ユーザアカウントに関連付けられているメールアドレスを確認してください</value>
+    <value>パスワードリセット通知：ユーザアカウントに関連付けられているメールアドレスを確認してください</value>
   </data>
   <data name="Message.UserDoesNotExist" xml:space="preserve">
     <value>ユーザは存在しません</value>
@@ -160,7 +161,7 @@
     <value>検証コード:</value>
   </data>
   <data name="Error.TwoFactor.Fail" xml:space="preserve">
-    <value>検証に失敗しました。メールに記載されているフォームにコードを正確に入力したことを確認してください。新しい確認コードをリクエストしたい場合は、キャンセルオプションを選択して再度サインインしてください。 </value>
+    <value>認証に失敗しました。メールに記載されているフォームに正確にコードを入力したことを確認してください。新しい認証コードをリクエストする場合は、「キャンセル」オプションを選択して再度サインインしてください。</value>
   </data>
   <data name="Message.TwoFactor" xml:space="preserve">
     <value>安全な確認コードがあなたのメールアドレスに送信されました。受け取ったコードを入力してください。コードを受け取らなかった場合、または電子メールにアクセスできなくなった場合は、管理者に連絡してください。</value>

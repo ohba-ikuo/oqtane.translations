@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="NoCriteria" xml:space="preserve">
-    <value>いくつかの検索基準を指定する必要があります</value>
+    <value>検索する単語を指定して、検索ボタンを押してください。</value>
   </data>
   <data name="NoResult" xml:space="preserve">
-    <value>指定された基準に一致するコンテンツはありません</value>
+    <value>指定された単語に一致するコンテンツはありません</value>
   </data>
   <data name="SearchLabel" xml:space="preserve">
     <value>検索:</value>
   </data>
   <data name="SearchPlaceholder" xml:space="preserve">
-    <value>検索</value>
+    <value>検索単語</value>
   </data>
 </root>

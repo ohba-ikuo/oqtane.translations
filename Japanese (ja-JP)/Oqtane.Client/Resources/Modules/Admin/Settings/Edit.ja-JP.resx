@@ -117,40 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Role" xml:space="preserve">
-    <value>ロール</value>
+  <data name="SettingName.Text" xml:space="preserve">
+    <value>名称:</value>
   </data>
-  <data name="User" xml:space="preserve">
-    <value>ユーザ</value>
+  <data name="SettingName.HelpText" xml:space="preserve">
+    <value>設定名</value>
   </data>
-  <data name="Username.Enter" xml:space="preserve">
-    <value>ユーザ名を入力してください</value>
+  <data name="EntityId.HelpText" xml:space="preserve">
+    <value>エンティティId</value>
   </data>
-  <data name="Message.Username.DontExist" xml:space="preserve">
-    <value>ユーザ名は存在しません</value>
+  <data name="EntityName.HelpText" xml:space="preserve">
+    <value>エンティティ名</value>
   </data>
-  <data name="ModuleDefinition" xml:space="preserve">
-    <value>モジュール</value>
+  <data name="EntityId.Text" xml:space="preserve">
+    <value>Id:</value>
   </data>
-  <data name="Page" xml:space="preserve">
-    <value>ページ</value>
+  <data name="EntityName.Text" xml:space="preserve">
+    <value>エンティティ:</value>
   </data>
-  <data name="Folder" xml:space="preserve">
-    <value>フォルダ</value>
+  <data name="Error.LoadSetting" xml:space="preserve">
+    <value>設定読み込みエラー</value>
   </data>
-  <data name="View" xml:space="preserve">
-    <value>表示</value>
+  <data name="Error.SaveSetting" xml:space="preserve">
+    <value>設定保存エラー</value>
   </data>
-  <data name="Edit" xml:space="preserve">
-    <value>編集</value>
+  <data name="Message.InfoRequired" xml:space="preserve">
+    <value>必要な情報をすべてご提供ください</value>
   </data>
-  <data name="Utilize" xml:space="preserve">
-    <value>利用</value>
+  <data name="SettingValue.Text" xml:space="preserve">
+    <value>値:</value>
   </data>
-  <data name="Browse" xml:space="preserve">
-    <value>閲覧</value>
+  <data name="SettingValue.HelpText" xml:space="preserve">
+    <value>設定値</value>
   </data>
-  <data name="Module" xml:space="preserve">
-    <value>モジュール</value>
+  <data name="IsPrivate.Text" xml:space="preserve">
+    <value>プライベート</value>
+  </data>
+  <data name="IsPrivate.HelpText" xml:space="preserve">
+    <value>この設定がプライベートであるかどうか、つまりサーバー上でのみ維持され、クライアントには送信されないかどうかを示します。</value>
   </data>
 </root>
